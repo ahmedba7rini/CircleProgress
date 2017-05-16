@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CircleProgressSample</string>
+    <string name="top_text">Top Text</string>
+    <string name="bottom_text">Bottom Text</string>
+    <string name="large_text">Very Large Text Test</string>
+</resources>

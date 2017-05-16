@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="progress" format="float"/>
+        <attr name="angle" format="float"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="max" format="integer"/>
+
+        <attr name="progressBackroundColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+
+        <attr name="progressTextSize" format="dimension"/>
+        <attr name="progressTextColor" format="color"/>
+
+        <attr name="suffixText" format="string"/>
+        <attr name="suffixTextSize" format="dimension"/>
+        <attr name="suffixTextPadding" format="dimension"/>
+        <attr name="suffixTextColor" format="color"/>
+
+        <attr name="textTitle" format="string"/>
+        <attr name="textTitleSize" format="dimension"/>
+
+        <attr name="bottomText" format="string"/>
+        <attr name="bottomTextSize" format="dimension"/>
+        <attr name="bottomTextPaddingTop" format="dimension"/>
+        <attr name="bottomTextColor" format="color"/>
+
+        <attr name="prefixText" format="string"/>
+        <attr name="prefixTextSize" format="dimension"/>
+        <attr name="prefixTextPadding" format="dimension"/>
+        <attr name="prefixTextColor" format="color"/>
+
+        <attr name="topText" format="string"/>
+        <attr name="topTextSize" format="dimension"/>
+        <attr name="topTextPadding" format="dimension"/>
+        <attr name="topTextColor" format="color"/>
+
+        <attr name="progressStartAngle" format="integer"/>
+
+        <attr name="bottomTextTruncateAt" format="dimension"/>
+        <!--line properties-->
+        <attr name="showMiddleLine" format="boolean"/>
+        <attr name="middleLineColor" format="color"/>
+        <attr name="middleLineStrokeWidth" format="dimension"/>
+        <attr name="middleLineTopPadding" format="dimension"/>
+
+
+        <attr name="progressDirection" format="enum">
+            <enum name="ltr" value="0"/>
+            <enum name="rtl" value="1"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

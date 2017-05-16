@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="circle_progress_color">#f9a926</color>
+    <color name="circle_progress_background_color">#dededf</color>
+    <color name="circle_text_color">#8f8e94</color>
+</resources>

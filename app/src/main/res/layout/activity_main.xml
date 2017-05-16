@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bnation.circleprogresssample.MainActivity">
+
+    <com.bnation.circleprogress.CircleProgress
+        android:id="@+id/circleProgress"
+        android:background="#00000000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        app:progress="55.55"
+
+        app:strokeWidth="5dp"
+        app:max="100"
+        app:progressBackroundColor="@color/circle_progress_background_color"
+        app:progressColor="@color/circle_progress_color"
+
+        app:progressTextSize="25sp"
+        app:progressTextColor="@color/circle_progress_color"
+
+        app:prefixText="%"
+        app:prefixTextPadding="0dp"
+        app:prefixTextSize="14sp"
+        app:prefixTextColor="@color/circle_progress_color"
+
+        app:bottomText="@string/large_text"
+        app:bottomTextColor="@color/circle_text_color"
+        app:bottomTextSize="14sp"
+        app:bottomTextPaddingTop="10dp"
+
+        app:topText="@string/top_text"
+        app:topTextColor="@color/circle_text_color"
+        app:topTextPadding="20dp"
+        app:topTextSize="14sp"
+
+        app:angle="360"
+        app:progressDirection="rtl"
+        app:progressStartAngle="180"
+        app:bottomTextTruncateAt="30dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
