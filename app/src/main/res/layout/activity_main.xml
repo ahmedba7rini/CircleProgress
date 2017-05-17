@@ -9,42 +9,50 @@
 
     <com.bnation.circleprogress.CircleProgress
         android:id="@+id/circleProgress"
-        android:background="#00000000"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_centerInParent="true"
 
-        app:progress="55.55"
+        android:layout_marginTop="10dp"
 
-        app:strokeWidth="5dp"
-        app:max="100"
-        app:progressBackroundColor="@color/circle_progress_background_color"
-        app:progressColor="@color/circle_progress_color"
-
-        app:progressTextSize="25sp"
-        app:progressTextColor="@color/circle_progress_color"
-
-        app:prefixText="%"
-        app:prefixTextPadding="0dp"
-        app:prefixTextSize="14sp"
-        app:prefixTextColor="@color/circle_progress_color"
-
+        android:background="#00000000"
+        app:angle="360"
         app:bottomText="@string/large_text"
         app:bottomTextColor="@color/circle_text_color"
-        app:bottomTextSize="14sp"
-        app:bottomTextPaddingTop="10dp"
 
+        app:bottomTextPaddingTop="10dp"
+        app:bottomTextSize="14sp"
+
+        app:bottomTextTruncateAt="30dp"
+        app:max="100"
+        app:prefixText="%"
+        app:prefixTextColor="@color/circle_progress_color"
+
+        app:prefixTextPadding="0dp"
+        app:prefixTextSize="14sp"
+        app:progress="55.55"
+        app:progressBackroundColor="@color/circle_progress_background_color"
+
+        app:progressColor="@color/circle_progress_color"
+        app:progressDirection="ltr"
+        app:progressStartAngle="0"
+        app:progressTextColor="@color/circle_progress_color"
+
+        app:progressTextSize="25sp"
+        app:strokeWidth="5dp"
         app:topText="@string/top_text"
         app:topTextColor="@color/circle_text_color"
+
         app:topTextPadding="20dp"
         app:topTextSize="14sp"
+        />
 
-        app:angle="360"
-        app:progressDirection="rtl"
-        app:progressStartAngle="180"
-        app:bottomTextTruncateAt="30dp"
-
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+    <Button
+        android:id="@+id/animate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Animate"
         />
 
 </RelativeLayout>
